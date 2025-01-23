@@ -46,6 +46,11 @@ ssr = [
     "leptos_router/ssr",
 ]
 
+# server speed optimized
+[profile.release]
+codegen-units = 1
+lto = true
+
 [profile.wasm-release]
 inherits = "release"
 opt-level = 'z'
