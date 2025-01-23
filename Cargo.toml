@@ -35,6 +35,7 @@ ssr = [
     "dep:axum",
     "dep:tracing",
     "dep:tracing-subscriber",
+    "dep:thiserror",
     "dep:tokio",
     "dep:http",
     "dep:tower",
